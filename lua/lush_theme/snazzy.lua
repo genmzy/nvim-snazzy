@@ -95,7 +95,7 @@ local theme = lush(function(injected_functions)
 		sym("@diff.plus") { fg = snazzy.green, bg = snazzy.diff.add }, -- TSWarning      xxx guifg=#ff9f43
 		sym("@error") { fg = snazzy.red }, -- TSError        xxx cterm=bold gui=bold guifg=#ff5c57
 		sym("@function") { fg = snazzy.blue }, -- TSFunction     xxx cterm=bold gui=bold guifg=#57c7ff
-		sym("@function.builtin") { fg = snazzy.yellow }, -- TSFuncBuiltin  xxx cterm=bold gui=bold guifg=#57c7ff
+		sym("@function.builtin") { fg = snazzy.red }, -- TSFuncBuiltin  xxx cterm=bold gui=bold guifg=#57c7ff
 		sym("@function.call") { fg = snazzy.blue }, -- TSFunctionCall xxx cterm=bold gui=bold guifg=#57c7ff
 		sym("@function.macro") { fg = snazzy.blue }, -- TSFuncMacro    xxx cterm=bold gui=bold guifg=#57c7ff
 		sym("@function.method") { fg = snazzy.blue }, -- TSMethod       xxx cterm=bold gui=bold guifg=#57c7ff
@@ -152,6 +152,7 @@ local theme = lush(function(injected_functions)
 		sym("@variable.builtin") { fg = snazzy.orange }, -- TSVariableBuiltin xxx cterm=italic gui=italic guifg=#ff9f43
 		sym("@variable.member") { fg = snazzy.cyan }, -- TSField        xxx guifg=#9aedfe
 		sym("@variable.parameter") { fg = snazzy.base9 }, -- TSParameter    xxx guifg=#f3f99d
+		sym("@lsp.type.string") { sym("@none") },
 
 		-- LSP highlights
 		sym("@lsp.type.class") { Structure }, -- @lsp.type.class xxx links to Structure
