@@ -173,7 +173,7 @@ local theme = lush(function(injected_functions)
 		sym("@lsp.type.variable") { sym("@variable") }, -- @lsp.type.variable xxx links to Identifier
 
 		sym("@lsp.mod.global.lua") { fg = snazzy.red },
-		sym("@lsp.typemod.function.defaultLibrary.lua") { fg = snazzy.yellow, gui = "bold" },
+		sym("@lsp.typemod.function.defaultLibrary.lua") { fg = snazzy.yellow },
 		sym("@lsp.typemod.class.constructorOrDestructor") { fg = snazzy.blue },
 		sym("@lsp.mod.constructorOrDestructor") { fg = snazzy.blue },
 		sym("@lsp.typemod.variable.macro.rust") { fg = snazzy.green },
@@ -545,7 +545,7 @@ local theme = lush(function(injected_functions)
 		LineNrAbove { LineNr }, -- LineNrAbove    xxx links to LineNr
 		LineNrBelow { LineNr }, -- LineNrBelow    xxx links to LineNr
 		LspComment { gui = "italic", fg = snazzy.ui_8 }, -- LspComment     xxx cterm=italic gui=italic guifg=#606580
-		LspCodeLens { fg = snazzy.ui_8, gui = "bold" }, -- LspComment     xxx cterm=italic gui=italic guifg=#606580
+		LspCodeLens { fg = snazzy.ui_8 }, -- LspComment     xxx cterm=italic gui=italic guifg=#606580
 		LspDefaultLibrary { fg = snazzy.yellow }, -- LspDefaultLibrary xxx cterm=bold gui=bold guifg=#f3f99d
 		LspDefinition { sp = snazzy.statusline.bg, bg = "#3a3d4d", fg = snazzy.blue }, -- LspDefinition  xxx guifg=#57c7ff guibg=#3a3d4d guisp=#3a3d4d
 		LspFloatWinBorder { fg = snazzy.cyan }, -- LspFloatWinBorder xxx guifg=#57c7ff
