@@ -92,8 +92,8 @@ M.dark = {
 	black = hsl("#282a36"),
 	pure_black = hsl("#000000"),
 
-	search = hsl("#434805"),
-	incsearch = hsl("#434805"),
+	search = hsl("#9aedfe"),
+	incsearch = hsl("#9aedfe"),
 
 	-- Grayscale
 	ui_0 = "#F9F9F9",
