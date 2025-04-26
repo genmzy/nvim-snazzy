@@ -506,7 +506,7 @@ local theme = lush(function(injected_functions)
 		GitSignsChangeInline { TermCursor }, -- GitSignsChangeInline xxx links to TermCursor
 		GitSignsChangeLn { DiffChange }, -- GitSignsChangeLn xxx links to DiffChange
 		GitSignsChangeNr { GitSignsChange }, -- GitSignsChangeNr xxx links to GitSignsChange
-		GitSignsCurrentLineBlame { bg = snazzy.statusline.bg, gui = "italic", fg = "#606580" }, -- GitSignsCurrentLineBlame xxx cterm=italic gui=italic guifg=#606580 guibg=#3a3d4d
+		GitSignsCurrentLineBlame { fg = "#606580" }, -- GitSignsCurrentLineBlame xxx cterm=italic gui=italic guifg=#606580 guibg=#3a3d4d
 		GitSignsDelete { fg = snazzy.red }, -- GitSignsDelete xxx guifg=#ff5c57
 		GitSignsDeleteInline { TermCursor }, -- GitSignsDeleteInline xxx links to TermCursor
 		GitSignsDeleteNr { GitSignsDelete }, -- GitSignsDeleteNr xxx links to GitSignsDelete
