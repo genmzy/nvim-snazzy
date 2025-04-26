@@ -128,13 +128,13 @@ local theme = lush(function(injected_functions)
 		sym("@markup.strike") { gui = "strikethrough" }, -- TSStrike       xxx cterm=strikethrough gui=strikethrough
 		sym("@markup.strong") { gui = "bold" }, -- TSStrong       xxx cterm=bold gui=bold
 		sym("@markup.underline") { gui = "underline" }, -- TSUnderline    xxx cterm=underline gui=underline
-		sym("@module") { fg = snazzy.purple }, -- TSNamespace    xxx cterm=italic gui=italic guifg=#a39df9
+		sym("@module") { fg = snazzy.cyan }, -- TSNamespace    xxx cterm=italic gui=italic guifg=#a39df9
 		sym("@number") { fg = snazzy.orange }, -- TSNumber       xxx guifg=#5af78e
 		sym("@number.float") { fg = "#a1a6a8" }, -- TSFloat        xxx guifg=#a1a6a8
 		sym("@operator") { fg = snazzy.orange }, -- TSOperator     xxx guifg=#ff6ac1
 		sym("@property") { Identifier }, -- TSProperty     xxx links to Identifier
 		sym("@punctuation.bracket") { fg = snazzy.base6 }, -- TSPunctBracket xxx guifg=#f1f1f0
-		sym("@punctuation.delimiter") { fg = "#f1f1f0" }, -- TSPunctDelimiter xxx guifg=#f1f1f0
+		sym("@punctuation.delimiter") { fg = snazzy.base9 }, -- TSPunctDelimiter xxx guifg=#f1f1f0
 		sym("@string") { fg = snazzy.green }, -- TSString       xxx guifg=#5af78e
 		sym("@string.escape") { fg = snazzy.yellow }, -- TSStringEscape xxx cterm=bold gui=bold guifg=#f3f99d
 		sym("@string.regexp") { String }, -- TSStringRegex  xxx links to String
@@ -151,7 +151,7 @@ local theme = lush(function(injected_functions)
 		sym("@variable") { fg = "#eff0eb" }, -- TSVariable     xxx guifg=#eff0eb
 		sym("@variable.builtin") { fg = snazzy.orange }, -- TSVariableBuiltin xxx cterm=italic gui=italic guifg=#ff9f43
 		sym("@variable.member") { fg = snazzy.cyan }, -- TSField        xxx guifg=#9aedfe
-		sym("@variable.parameter") { fg = snazzy.yellow }, -- TSParameter    xxx guifg=#f3f99d
+		sym("@variable.parameter") { fg = snazzy.base9 }, -- TSParameter    xxx guifg=#f3f99d
 
 		-- LSP highlights
 		sym("@lsp.type.class") { Structure }, -- @lsp.type.class xxx links to Structure
@@ -176,6 +176,7 @@ local theme = lush(function(injected_functions)
 		sym("@lsp.typemod.class.constructorOrDestructor") { fg = snazzy.blue },
 		sym("@lsp.mod.constructorOrDestructor") { fg = snazzy.blue },
 		sym("@lsp.typemod.variable.macro.rust") { fg = snazzy.green },
+		sym("@lsp.typemod.variable.readonly") { Define },
 
 		DiagnosticDefaultError { fg = snazzy.red }, -- DiagnosticDefaultError xxx guifg=#ff5c57
 		DiagnosticDefaultHint { fg = snazzy.green }, -- DiagnosticDefaultHint xxx guifg=#5af78e

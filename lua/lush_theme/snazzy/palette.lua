@@ -77,6 +77,7 @@ M.dark = {
 	base6 = "#73797e",
 	base7 = "#9ca0a4",
 	base8 = "#b1b1b1",
+	base9 = "#cbcbcb",
 
 	red = hsl("#ff5c57"),
 	orange = hsl("#FF9F43"),
