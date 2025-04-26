@@ -37,8 +37,8 @@ local theme = lush(function(injected_functions)
 		PreProc { fg = snazzy.red }, -- PreProc        xxx guifg=#ff5c57
 		Search { bg = snazzy.search, fg = snazzy.bg }, -- IncSearch      xxx guibg=#434805
 		Special { fg = snazzy.cyan }, -- Special        xxx guifg=#f3f99d
-		SpecialChar { fg = snazzy.yellow }, -- SpecialChar    xxx guifg=#f3f99d
-		SpecialComment { fg = snazzy.yellow }, -- SpecialComment xxx guifg=#f3f99d
+		SpecialChar { fg = snazzy.purple }, -- SpecialChar    xxx guifg=#f3f99d
+		SpecialComment { fg = snazzy.purple }, -- SpecialComment xxx guifg=#f3f99d
 		SpecialKey { gui = "italic", fg = "#5e6c70" }, -- SpecialKey     xxx cterm=italic gui=italic guifg=#5e6c70
 		Statement { fg = snazzy.magenta }, -- Statement      xxx guifg=#ff6ac1
 		StatusLine { sp = snazzy.statusline.bg, bg = "#3a3d4d", fg = "#eff0eb" }, -- StatusLine     xxx guifg=#eff0eb guibg=#3a3d4d guisp=#3a3d4d
@@ -136,7 +136,7 @@ local theme = lush(function(injected_functions)
 		sym("@punctuation.bracket") { fg = snazzy.base6 }, -- TSPunctBracket xxx guifg=#f1f1f0
 		sym("@punctuation.delimiter") { fg = snazzy.base9 }, -- TSPunctDelimiter xxx guifg=#f1f1f0
 		sym("@string") { fg = snazzy.green }, -- TSString       xxx guifg=#5af78e
-		sym("@string.escape") { fg = snazzy.yellow }, -- TSStringEscape xxx cterm=bold gui=bold guifg=#f3f99d
+		sym("@string.escape") { fg = snazzy.purple }, -- TSStringEscape xxx cterm=bold gui=bold guifg=#f3f99d
 		sym("@string.regexp") { String }, -- TSStringRegex  xxx links to String
 		sym("@string.special.symbol") { fg = snazzy.green }, -- TSSymbol       xxx guifg=#5af78e
 		sym("@string.special.url") { gui = "underline", fg = snazzy.blue }, -- TSURI          xxx cterm=underline gui=underline guifg=#57c7ff
