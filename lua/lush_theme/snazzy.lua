@@ -17,10 +17,10 @@ local theme = lush(function(injected_functions)
 		Conditional { fg = snazzy.yellow }, -- Conditional    xxx cterm=bold gui=bold guifg=#f3f99d
 		Constant { fg = snazzy.green }, -- Constant       xxx guifg=#5af78e
 		Debug { fg = snazzy.yellow }, -- Debug          xxx guifg=#f3f99d
-		Define { fg = snazzy.yellow }, -- Define         xxx guifg=#f3f99d
+		Define { fg = snazzy.purple }, -- Define         xxx guifg=#f3f99d
 		Identifier { fg = snazzy.cyan }, -- Identifier     xxx guifg=#9aedfe
 		IncSearch { bg = snazzy.search, fg = snazzy.bg }, -- IncSearch      xxx guibg=#434805
-		Macro { fg = snazzy.yellow }, -- Macro          xxx guifg=#f3f99d
+		Macro { fg = snazzy.purple }, -- Macro          xxx guifg=#f3f99d
 		NonText { fg = "#606580" }, -- NonText        xxx cterm=italic gui=italic guifg=#606580
 		Normal {
 			fg = snazzy.fg,
@@ -36,7 +36,7 @@ local theme = lush(function(injected_functions)
 		PreCondit { fg = snazzy.yellow }, -- PreCondit      xxx guifg=#f3f99d
 		PreProc { fg = snazzy.red }, -- PreProc        xxx guifg=#ff5c57
 		Search { bg = snazzy.search, fg = snazzy.bg }, -- IncSearch      xxx guibg=#434805
-		Special { fg = snazzy.yellow }, -- Special        xxx guifg=#f3f99d
+		Special { fg = snazzy.cyan }, -- Special        xxx guifg=#f3f99d
 		SpecialChar { fg = snazzy.yellow }, -- SpecialChar    xxx guifg=#f3f99d
 		SpecialComment { fg = snazzy.yellow }, -- SpecialComment xxx guifg=#f3f99d
 		SpecialKey { gui = "italic", fg = "#5e6c70" }, -- SpecialKey     xxx cterm=italic gui=italic guifg=#5e6c70
@@ -144,8 +144,8 @@ local theme = lush(function(injected_functions)
 		sym("@tag") { fg = snazzy.cyan }, -- TSTag          xxx guifg=#9aedfe
 		sym("@tag.attribute") { fg = snazzy.orange }, -- TSTagAttribute xxx guifg=#f3f99d
 		sym("@tag.delimiter") { fg = snazzy.magenta }, -- TSTagDelimiter xxx guifg=#ff6ac1
-		sym("@type") { fg = snazzy.purple }, -- TSType         xxx guifg=#a39df9
-		sym("@type.builtin") { fg = snazzy.purple }, -- TSTypeBuiltin  xxx guifg=#a39df9
+		sym("@type") { fg = snazzy.yellow }, -- TSType         xxx guifg=#a39df9
+		sym("@type.builtin") { fg = snazzy.yellow }, -- TSTypeBuiltin  xxx guifg=#a39df9
 		sym("@type.definition") { Typedef }, -- TSTypeDefinition xxx links to Typedef
 		sym("@type.qualifier") { Type }, -- TSTypeQualifier xxx links to Type
 		sym("@variable") { fg = "#eff0eb" }, -- TSVariable     xxx guifg=#eff0eb
