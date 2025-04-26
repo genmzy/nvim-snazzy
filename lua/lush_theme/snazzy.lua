@@ -178,6 +178,7 @@ local theme = lush(function(injected_functions)
 		sym("@lsp.mod.constructorOrDestructor") { fg = snazzy.blue },
 		sym("@lsp.typemod.variable.macro.rust") { fg = snazzy.green },
 		sym("@lsp.typemod.variable.readonly") { Define },
+		sym("@markup.raw.block.vimdoc") { String },
 
 		DiagnosticDefaultError { fg = snazzy.red }, -- DiagnosticDefaultError xxx guifg=#ff5c57
 		DiagnosticDefaultHint { fg = snazzy.green }, -- DiagnosticDefaultHint xxx guifg=#5af78e
@@ -194,10 +195,10 @@ local theme = lush(function(injected_functions)
 		DiagnosticSignHint { fg = snazzy.cyan }, -- DiagnosticSignHint xxx guifg=#9aedfe
 		DiagnosticSignInfo { fg = snazzy.blue }, -- DiagnosticSignInfo xxx guifg=#57c7ff
 		DiagnosticSignWarn { fg = snazzy.orange }, -- DiagnosticSignWarn xxx guifg=#ff9f43
-		DiagnosticUnderlineError { sp = snazzy.red, gui = "underdouble", fg = "#ff5c57" }, -- DiagnosticUnderlineError xxx cterm=underdouble gui=underdouble guifg=#ff5c57 guisp=#ff5c57
-		DiagnosticUnderlineHint { sp = snazzy.cyan, gui = "underdouble" }, -- DiagnosticUnderlineHint xxx cterm=underdouble gui=underdouble guisp=#9aedfe
-		DiagnosticUnderlineInfo { sp = snazzy.blue, gui = "underdouble" }, -- DiagnosticUnderlineInfo xxx cterm=underdouble gui=underdouble guisp=#57c7ff
-		DiagnosticUnderlineWarn { sp = snazzy.orange, gui = "underdouble" }, -- DiagnosticUnderlineWarn xxx cterm=underdouble gui=underdouble guisp=#ff9f43
+		DiagnosticUnderlineError { sp = snazzy.red, gui = "underline", fg = "#ff5c57" }, -- DiagnosticUnderlineError xxx cterm=underdouble gui=underdouble guifg=#ff5c57 guisp=#ff5c57
+		DiagnosticUnderlineHint { sp = snazzy.cyan, gui = "underline" }, -- DiagnosticUnderlineHint xxx cterm=underdouble gui=underdouble guisp=#9aedfe
+		DiagnosticUnderlineInfo { sp = snazzy.blue, gui = "underline" }, -- DiagnosticUnderlineInfo xxx cterm=underdouble gui=underdouble guisp=#57c7ff
+		DiagnosticUnderlineWarn { sp = snazzy.orange, gui = "underline" }, -- DiagnosticUnderlineWarn xxx cterm=underdouble gui=underdouble guisp=#ff9f43
 		DiagnosticVirtualTextError { fg = snazzy.red }, -- DiagnosticVirtualTextError xxx guifg=#ff5c57
 		DiagnosticVirtualTextHint { fg = snazzy.cyan }, -- DiagnosticVirtualTextHint xxx guifg=#9aedfe
 		DiagnosticVirtualTextInfo { fg = snazzy.blue }, -- DiagnosticVirtualTextInfo xxx guifg=#57c7ff
