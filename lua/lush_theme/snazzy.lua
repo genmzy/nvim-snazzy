@@ -170,7 +170,8 @@ local theme = lush(function(injected_functions)
 		sym("@lsp.type.struct") { Structure }, -- @lsp.type.struct xxx links to Structure
 		sym("@lsp.type.type") { sym("@type") }, -- @lsp.type.type xxx links to Type
 		sym("@lsp.type.typeParameter") { Typedef }, -- @lsp.type.typeParameter xxx links to Typedef
-		sym("@lsp.type.variable") { sym("@variable") }, -- @lsp.type.variable xxx links to Identifier
+		sym("@lsp.type.variable") {}, -- @lsp.type.variable xxx links to Identifier
+		sym("@lsp.type.variable.go") { sym("@lsp.type.variable") }, -- @lsp.type.variable xxx links to Indetifier
 
 		sym("@lsp.mod.global.lua") { fg = snazzy.red },
 		sym("@lsp.typemod.function.defaultLibrary.lua") { fg = snazzy.yellow },
