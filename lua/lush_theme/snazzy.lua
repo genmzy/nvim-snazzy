@@ -45,7 +45,7 @@ local theme = lush(function(injected_functions)
 		StatusLineNC { sp = snazzy.statusline.bg, bg = "#3a3d4d", fg = "#a1a6a8" }, -- StatusLineNC   xxx guifg=#a1a6a8 guibg=#3a3d4d guisp=#3a3d4d
 		StorageClass { fg = snazzy.blue }, -- StorageClass   xxx cterm=bold gui=bold guifg=#57c7ff
 		String { fg = snazzy.green }, -- String         xxx guifg=#f3f99d
-		Structure { fg = snazzy.cyan }, -- Structure      xxx cterm=bold gui=bold guifg=#536991
+		Structure { fg = snazzy.yellow }, -- Structure      xxx cterm=bold gui=bold guifg=#536991
 		Substitute { bg = snazzy.yellow.mix(snazzy.bg, 50), fg = snazzy.bg }, -- Substitute     xxx links to Search
 		TermCursor { fg = "#192224" }, -- TermCursor     xxx guifg=#192224
 		Terminal { fg = "#eff0eb" }, -- Terminal       xxx guifg=#eff0eb guibg=#282a36
