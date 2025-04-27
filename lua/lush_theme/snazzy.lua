@@ -755,12 +755,12 @@ local theme = lush(function(injected_functions)
 		TelescopeSelection { bg = snazzy.cursorline }, -- TelescopeSelection xxx cterm=bold gui=bold
 		TelescopeSelectionCaret { fg = snazzy.magenta, bg = snazzy.cursorline }, -- TelescopeSelectionCaret xxx cterm=bold gui=bold guifg=#ff6ac1
 		TelescopeTitle { TelescopeBorder }, -- TelescopeTitle xxx links to TelescopeBorder
-		TodoBgFIX { bg = snazzy.red, fg = "#282a36" }, -- TodoBgFIX      xxx gui=bold guifg=#282a36 guibg=#ff5c57
-		TodoBgHACK { bg = snazzy.yellow, fg = "#282a36" }, -- TodoBgHACK     xxx gui=bold guifg=#282a36 guibg=#f3f99d
-		TodoBgNOTE { bg = snazzy.green, fg = "#282a36" }, -- TodoBgNOTE     xxx gui=bold guifg=#282a36 guibg=#5af78e
-		TodoBgPERF { bg = snazzy.cyan, fg = "#282a36" }, -- TodoBgPERF     xxx gui=bold guifg=#282a36 guibg=#9aedfe
-		TodoBgTODO { bg = snazzy.cyan, fg = "#282a36" }, -- TodoBgTODO     xxx gui=bold guifg=#282a36 guibg=#9aedfe
-		TodoBgWARN { bg = snazzy.yellow, fg = "#282a36" }, -- TodoBgWARN     xxx gui=bold guifg=#282a36 guibg=#f3f99d
+		TodoBgFIX { bg = snazzy.red, fg = "#282a36", gui = "bold" }, -- TodoBgFIX      xxx gui=bold guifg=#282a36 guibg=#ff5c57
+		TodoBgHACK { bg = snazzy.yellow, fg = "#282a36", gui = "bold" }, -- TodoBgHACK     xxx gui=bold guifg=#282a36 guibg=#f3f99d
+		TodoBgNOTE { bg = snazzy.green, fg = "#282a36", gui = "bold" }, -- TodoBgNOTE     xxx gui=bold guifg=#282a36 guibg=#5af78e
+		TodoBgPERF { bg = snazzy.cyan, fg = "#282a36", gui = "bold" }, -- TodoBgPERF     xxx gui=bold guifg=#282a36 guibg=#9aedfe
+		TodoBgTODO { bg = snazzy.cyan, fg = "#282a36", gui = "bold" }, -- TodoBgTODO     xxx gui=bold guifg=#282a36 guibg=#9aedfe
+		TodoBgWARN { bg = snazzy.yellow, fg = "#282a36", gui = "bold" }, -- TodoBgWARN     xxx gui=bold guifg=#282a36 guibg=#f3f99d
 		TodoFgFIX { fg = snazzy.red }, -- TodoFgFIX      xxx guifg=#ff5c57
 		TodoFgHACK { fg = snazzy.yellow }, -- TodoFgHACK     xxx guifg=#f3f99d
 		TodoFgNOTE { fg = snazzy.green }, -- TodoFgNOTE     xxx guifg=#5af78e
