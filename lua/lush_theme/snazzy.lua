@@ -47,7 +47,7 @@ local theme = lush(function(injected_functions)
 		String { fg = snazzy.green }, -- String         xxx guifg=#f3f99d
 		Structure { fg = snazzy.yellow }, -- Structure      xxx cterm=bold gui=bold guifg=#536991
 		Substitute { bg = snazzy.yellow.mix(snazzy.bg, 50), fg = snazzy.bg }, -- Substitute     xxx links to Search
-		TermCursor { fg = "#192224" }, -- TermCursor     xxx guifg=#192224
+		TermCursor { bg = "#f1f1f0" }, -- TermCursor     xxx guifg=#f1f1f0
 		Terminal { fg = "#eff0eb" }, -- Terminal       xxx guifg=#eff0eb guibg=#282a36
 		Title { fg = snazzy.yellow }, -- Title          xxx cterm=bold gui=bold guifg=#f3f99d
 		Todo { gui = "italic", fg = snazzy.yellow }, -- Todo           xxx cterm=italic gui=italic guifg=#f3f99d
