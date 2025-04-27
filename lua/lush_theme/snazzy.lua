@@ -707,13 +707,13 @@ local theme = lush(function(injected_functions)
 		TabLineFill { sp = snazzy.statusline.bg, fg = "#192224", bg = "#3a3d4d", gui = "bold" }, -- TabLineFill    xxx cterm=bold gui=bold guifg=#192224 guibg=#3a3d4d guisp=#3a3d4d
 		TabLineSel { sp = "#282a36", fg = "#eff0eb", bg = "#282a36", gui = "bold" }, -- TabLineSel     xxx cterm=bold gui=bold guifg=#eff0eb guibg=#282a36 guisp=#282a36
 		Tag { fg = snazzy.yellow }, -- Tag            xxx guifg=#f3f99d
-		TelescopeBorder { bg = "#282a36", fg = snazzy.blue }, -- TelescopeBorder xxx guifg=#57c7ff guibg=#282a36
+		TelescopeBorder { fg = snazzy.blue }, -- TelescopeBorder xxx guifg=#57c7ff guibg=#282a36
 		TelescopeMatching { fg = snazzy.green }, -- TelescopeMatching xxx cterm=bold gui=bold guifg=#5af78e
 		TelescopeMultiIcon { Identifier }, -- TelescopeMultiIcon xxx links to Identifier
 		TelescopeMultiSelection { fg = snazzy.red }, -- TelescopeMultiSelection xxx cterm=bold gui=bold guifg=#ff5c57
-		TelescopeNormal { bg = "#282a36", fg = "#eff0eb" }, -- TelescopeNormal xxx guifg=#eff0eb guibg=#282a36
+		TelescopeNormal { fg = "#eff0eb" }, -- TelescopeNormal xxx guifg=#eff0eb guibg=#282a36
 		TelescopePreviewBlock { Constant }, -- TelescopePreviewBlock xxx links to Constant
-		TelescopePreviewBorder { bg = "#282a36", fg = snazzy.blue }, -- TelescopePreviewBorder xxx guifg=#57c7ff guibg=#282a36
+		TelescopePreviewBorder { fg = snazzy.blue }, -- TelescopePreviewBorder xxx guifg=#57c7ff guibg=#282a36
 		TelescopePreviewCharDev { Constant }, -- TelescopePreviewCharDev xxx links to Constant
 		TelescopePreviewDate { Directory }, -- TelescopePreviewDate xxx links to Directory
 		TelescopePreviewDirectory { Directory }, -- TelescopePreviewDirectory xxx links to Directory
@@ -731,11 +731,11 @@ local theme = lush(function(injected_functions)
 		TelescopePreviewSticky { Keyword }, -- TelescopePreviewSticky xxx links to Keyword
 		TelescopePreviewUser { Constant }, -- TelescopePreviewUser xxx links to Constant
 		TelescopePreviewWrite { Statement }, -- TelescopePreviewWrite xxx links to Statement
-		TelescopePromptBorder { bg = "#282a36", fg = snazzy.blue }, -- TelescopePromptBorder xxx guifg=#57c7ff guibg=#282a36
+		TelescopePromptBorder { fg = snazzy.blue }, -- TelescopePromptBorder xxx guifg=#57c7ff guibg=#282a36
 		TelescopePromptCounter { NonText }, -- TelescopePromptCounter xxx links to NonText
 		TelescopePromptNormal { TelescopeNormal }, -- TelescopePromptNormal xxx links to TelescopeNormal
 		TelescopePromptPrefix { fg = snazzy.magenta }, -- TelescopePromptPrefix xxx cterm=bold gui=bold guifg=#ff6ac1
-		TelescopeResultsBorder { bg = "#282a36", fg = snazzy.blue }, -- TelescopeResultsBorder xxx guifg=#57c7ff guibg=#282a36
+		TelescopeResultsBorder { fg = snazzy.blue }, -- TelescopeResultsBorder xxx guifg=#57c7ff guibg=#282a36
 		TelescopeResultsClass { Function }, -- TelescopeResultsClass xxx links to Function
 		TelescopeResultsComment { Comment }, -- TelescopeResultsComment xxx links to Comment
 		TelescopeResultsConstant { Constant }, -- TelescopeResultsConstant xxx links to Constant
