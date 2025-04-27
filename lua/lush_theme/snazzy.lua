@@ -52,7 +52,7 @@ local theme = lush(function(injected_functions)
 		Title { fg = snazzy.yellow }, -- Title          xxx cterm=bold gui=bold guifg=#f3f99d
 		Todo { gui = "italic", fg = snazzy.yellow }, -- Todo           xxx cterm=italic gui=italic guifg=#f3f99d
 		Type { fg = snazzy.cyan }, -- Type           xxx guifg=#9aedfe
-		Typedef { fg = "#536991" }, -- Typedef        xxx cterm=bold gui=bold guifg=#536991
+		Typedef { Structure }, -- Typedef        xxx cterm=bold gui=bold guifg=#536991
 		Underlined { sp = "#f1f1f0", gui = "underline", fg = "#f9f9ff" }, -- Underlined     xxx cterm=underline gui=underline guifg=#f9f9ff guisp=#f1f1f0
 		VertSplit { bg = "#282a36", fg = "#606580" }, -- VertSplit      xxx cterm=bold gui=bold guifg=#606580 guibg=#282a36
 		-- Visual { sp = snazzy.ui_7, bg = snazzy.ui_7 }, -- Visual         xxx guibg=#273d57 guisp=#273d57
