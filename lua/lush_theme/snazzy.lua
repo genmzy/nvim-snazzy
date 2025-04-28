@@ -211,7 +211,7 @@ local theme = lush(function(injected_functions)
 		CopilotSuggestion { bg = "#303340", fg = snazzy.blue }, -- CopilotSuggestion xxx guifg=#57c7ff guibg=#303340
 		Cursor { gui = "reverse" }, -- Cursor         xxx cterm=reverse gui=reverse
 		CursorColumn { sp = snazzy.statusline.bg, bg = "#3a3d4d", fg = "#e2e4e5" }, -- CursorColumn   xxx guifg=#e2e4e5 guibg=#3a3d4d guisp=#3a3d4d
-		CursorLine { sp = snazzy.cursorline, bg = snazzy.cursorline }, -- CursorLine     xxx guibg=#303340 guisp=#303340
+		CursorLine { bg = snazzy.cursorline }, -- CursorLine     xxx guibg=#303340 guisp=#303340
 		CursorLineFold { bg = "#303340", gui = "italic", fg = snazzy.blue }, -- CursorLineFold xxx cterm=italic gui=italic guifg=#57c7ff guibg=#303340
 		CursorLineNr { bg = "#303340", fg = snazzy.yellow }, -- CursorLineNr   xxx guifg=#f3f99d guibg=#303340
 		CursorLineSign { bg = "#303340" }, -- CursorLineSign xxx guibg=#303340
@@ -563,9 +563,9 @@ local theme = lush(function(injected_functions)
 		LspNamespace { gui = "italic", fg = snazzy.blue }, -- LspNamespace   xxx cterm=italic gui=italic guifg=#57c7ff
 		LspNumber { fg = snazzy.purple }, -- LspNumber      xxx guifg=#a39df9
 		LspParameter { fg = snazzy.yellow }, -- LspParameter   xxx guifg=#f3f99d
-		LspReferenceRead { sp = snazzy.statusline.bg, bg = "#3a3d4d" }, -- LspReferenceRead xxx guibg=#3a3d4d guisp=#3a3d4d
-		LspReferenceText { sp = snazzy.statusline.bg, bg = "#3a3d4d" }, -- LspReferenceText xxx guibg=#3a3d4d guisp=#3a3d4d
-		LspReferenceWrite { sp = snazzy.statusline.bg, bg = "#3a3d4d" }, -- LspReferenceWrite xxx guibg=#3a3d4d guisp=#3a3d4d
+		LspReferenceRead { gui = "underline" },
+		LspReferenceText { gui = "underline" },
+		LspReferenceWrite { gui = "underline" },
 		LspSignatureActiveParameter { gui = "underline" }, -- LspSignatureActiveParameter xxx guibg=#636427
 		LspVariable { fg = "#f1f1f0" }, -- LspVariable    xxx guifg=#f1f1f0
 		MatchBackground { ColorColumn }, -- MatchBackground xxx links to ColorColumn
@@ -874,11 +874,11 @@ local theme = lush(function(injected_functions)
 		CmpItemMenu { CmpItemMenuDefault }, -- CmpItemMenu    xxx links to CmpItemMenuDefault
 		CmpItemKindCodeium { CmpItemKindDefault },
 
-		BlinkCmpDocBorder { NormalFloat }, -- BlinkCmpDocBorder xxx links to NormalFloat
+		BlinkCmpDocBorder { fg = snazzy.yellow }, -- BlinkCmpDocBorder xxx links to NormalFloat
 		BlinkCmpDocCursorLine { Visual }, -- BlinkCmpDocCursorLine xxx links to Visual
 		BlinkCmpDocSeparator { NormalFloat }, -- BlinkCmpDocSeparator xxx links to NormalFloat
 		BlinkCmpLabelMatch { CmpItemAbbrMatch }, -- BlinkCmpLabelMatch xxx links to CmpItemAbbrMatch
-		-- BlinkCmpMenu                                                                                              { fg = snazzy.fg, bg = snazzy.ui_10 }, -- BlinkCmpMenu   xxx links to Pmenu
+		-- BlinkCmpMenu { fg = snazzy.fg, bg = snazzy.ui_10 }, -- BlinkCmpMenu   xxx links to Pmenu
 		BlinkCmpMenu { fg = snazzy.fg }, -- BlinkCmpMenu   xxx links to Pmenu
 		BlinkCmpDoc { BlinkCmpMenu }, -- BlinkCmpDoc    xxx links to NormalFloat
 		BlinkCmpMenuBorder { fg = snazzy.cyan }, -- BlinkCmpMenuBorder xxx links to Pmenu
@@ -898,12 +898,12 @@ local theme = lush(function(injected_functions)
 		BlinkCmpKindConstructor { fg = snazzy.blue },
 		BlinkCmpKindField { fg = snazzy.cyan },
 		BlinkCmpKindVariable { fg = snazzy.base6 },
-		BlinkCmpKindClass { fg = snazzy.purple },
-		BlinkCmpKindInterface { fg = snazzy.cyan },
-		BlinkCmpKindModule { fg = snazzy.purple },
+		BlinkCmpKindClass { fg = snazzy.yellow },
+		BlinkCmpKindInterface { fg = snazzy.yellow },
+		BlinkCmpKindModule { fg = snazzy.cyan },
 		BlinkCmpKindProperty { fg = snazzy.blue },
 		BlinkCmpKindUnit { fg = snazzy.purple },
-		BlinkCmpKindValue { fg = snazzy.green },
+		BlinkCmpKindValue { Normal },
 		BlinkCmpKindEnum { Constant },
 		BlinkCmpKindKeyword { fg = snazzy.magenta },
 		BlinkCmpKindSnippet { Conceal },
@@ -913,7 +913,7 @@ local theme = lush(function(injected_functions)
 		BlinkCmpKindFolder { Directory },
 		BlinkCmpKindEnumMember { Constant },
 		BlinkCmpKindConstant { Constant },
-		BlinkCmpKindStruct { fg = snazzy.cyan },
+		BlinkCmpKindStruct { fg = snazzy.yellow },
 		BlinkCmpKindEvent { Special },
 		BlinkCmpKindOperator { fg = snazzy.orange },
 		BlinkCmpKindTypeParameter { Typedef },
