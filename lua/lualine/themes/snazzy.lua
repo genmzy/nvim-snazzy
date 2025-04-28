@@ -39,12 +39,12 @@ local _M = {
 		c = { bg = colors.ui_9, fg = colors.white },
 	},
 	insert = {
-		a = { bg = colors.green, fg = colors.black, gui = "bold" },
+		a = { bg = colors.yellow, fg = colors.black, gui = "bold" },
 		b = { bg = colors.ui_8, fg = colors.white },
 		c = { bg = colors.ui_9, fg = colors.white },
 	},
 	visual = {
-		a = { bg = colors.yellow, fg = colors.black, gui = "bold" },
+		a = { bg = colors.magenta, fg = colors.black, gui = "bold" },
 		b = { bg = colors.ui_8, fg = colors.white },
 		c = { bg = colors.ui_9, fg = colors.white },
 	},
@@ -59,7 +59,7 @@ local _M = {
 		c = { bg = colors.ui_9, fg = colors.white },
 	},
 	inactive = {
-		a = { bg = colors.gray, fg = colors.white, gui = "bold" },
+		a = { bg = colors.grey, fg = colors.white, gui = "bold" },
 		b = { bg = colors.ui_8, fg = colors.white },
 		c = { bg = colors.ui_9, fg = colors.white },
 	},

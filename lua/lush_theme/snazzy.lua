@@ -114,7 +114,7 @@ local theme = lush(function(injected_functions)
 		sym("@keyword.repeat") { fg = snazzy.magenta }, -- TSRepeat       xxx cterm=bold gui=bold guifg=#f3f99d
 		sym("@keyword.return") { fg = snazzy.magenta }, -- TSKeywordReturn xxx cterm=bold gui=bold guifg=#ff6ac1
 		sym("@keyword.storage") { fg = snazzy.magenta }, -- TSStorageClass xxx guifg=#ff6ac1
-		sym("@label") { fg = snazzy.green }, -- TSLabel        xxx guifg=#5af78e
+		sym("@label") { fg = snazzy.orange }, -- TSLabel        xxx guifg=#5af78e
 		sym("@markup.emphasis") { gui = "italic" }, -- TSEmphasis     xxx cterm=italic gui=italic
 		sym("@markup.environment") { Macro }, -- TSEnvironment  xxx links to Macro
 		sym("@markup.environment.name") { Type }, -- TSEnvironmentName xxx links to Type
@@ -533,7 +533,7 @@ local theme = lush(function(injected_functions)
 		IndentBlanklineSpaceCharBlankline { gui = "nocombine", fg = "#3f444a" }, -- IndentBlanklineSpaceCharBlankline xxx cterm=nocombine gui=nocombine guifg=#3f444a
 		KeyMenuFloatBorder { fg = snazzy.cyan }, -- KeyMenuFloatBorder xxx guifg=#57c7ff
 		Keyword { fg = snazzy.magenta }, -- Keyword        xxx guifg=#ff6ac1
-		Label { fg = snazzy.yellow }, -- Label          xxx guifg=#f3f99d
+		Label { fg = snazzy.orange }, -- Label          xxx guifg=#f3f99d
 		LeapBackdrop { sp = "#666666", fg = "#666666" }, -- LeapBackdrop   xxx guifg=#666666 guibg=#282a36 guisp=#666666
 		LeapLabelPrimary { fg = "#ff007c" }, -- LeapBackdrop   xxx guifg=#666666 guibg=#282a36 guisp=#666666
 		LeapLabelSecondary { fg = "#00dfff" }, -- LeapLabelPrimary xxx cterm=bold gui=bold guifg=#ff007c
