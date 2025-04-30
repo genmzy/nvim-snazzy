@@ -184,27 +184,27 @@ local theme = lush(function(injected_functions)
 		DiagnosticDefaultError { fg = snazzy.red }, -- DiagnosticDefaultError xxx guifg=#ff5c57
 		DiagnosticDefaultHint { fg = snazzy.green }, -- DiagnosticDefaultHint xxx guifg=#5af78e
 		DiagnosticDefaultInfo { fg = snazzy.cyan }, -- DiagnosticDefaultInfo xxx guifg=#9aedfe
-		DiagnosticDefaultWarn { fg = snazzy.orange }, -- DiagnosticDefaultWarn xxx guifg=#ff9f43
+		DiagnosticDefaultWarn { fg = snazzy.yellow }, -- DiagnosticDefaultWarn xxx guifg=#ff9f43
 		DiagnosticError { fg = snazzy.red }, -- DiagnosticError xxx ctermfg=1 guifg=Red
 		DiagnosticFloatingError { fg = snazzy.red }, -- DiagnosticFloatingError xxx guifg=#ff5c57
 		DiagnosticFloatingHint { fg = snazzy.green }, -- DiagnosticFloatingHint xxx guifg=#5af78e
 		DiagnosticFloatingInfo { fg = snazzy.cyan }, -- DiagnosticFloatingInfo xxx guifg=#9aedfe
-		DiagnosticFloatingWarn { fg = snazzy.orange }, -- DiagnosticFloatingWarn xxx guifg=#ff9f43
-		DiagnosticHint { fg = "lightgrey" }, -- DiagnosticHint xxx ctermfg=7 guifg=LightGrey
-		DiagnosticInfo { fg = "lightblue" }, -- DiagnosticInfo xxx ctermfg=4 guifg=LightBlue
+		DiagnosticFloatingWarn { fg = snazzy.yellow }, -- DiagnosticFloatingWarn xxx guifg=#ff9f43
+		DiagnosticHint { fg = snazzy.green }, -- DiagnosticHint xxx ctermfg=7 guifg=LightGrey
+		DiagnosticInfo { fg = snazzy.cyan }, -- DiagnosticInfo xxx ctermfg=4 guifg=LightBlue
 		DiagnosticSignError { fg = snazzy.red }, -- DiagnosticSignError xxx guifg=#ff5c57
-		DiagnosticSignHint { fg = snazzy.cyan }, -- DiagnosticSignHint xxx guifg=#9aedfe
-		DiagnosticSignInfo { fg = snazzy.blue }, -- DiagnosticSignInfo xxx guifg=#57c7ff
-		DiagnosticSignWarn { fg = snazzy.orange }, -- DiagnosticSignWarn xxx guifg=#ff9f43
+		DiagnosticSignHint { fg = snazzy.green }, -- DiagnosticSignHint xxx guifg=#9aedfe
+		DiagnosticSignInfo { fg = snazzy.cyan }, -- DiagnosticSignInfo xxx guifg=#57c7ff
+		DiagnosticSignWarn { fg = snazzy.yellow }, -- DiagnosticSignWarn xxx guifg=#ff9f43
 		DiagnosticUnderlineError { sp = snazzy.red, gui = "underline", fg = "#ff5c57" }, -- DiagnosticUnderlineError xxx cterm=underdouble gui=underdouble guifg=#ff5c57 guisp=#ff5c57
-		DiagnosticUnderlineHint { sp = snazzy.cyan, gui = "underline" }, -- DiagnosticUnderlineHint xxx cterm=underdouble gui=underdouble guisp=#9aedfe
+		DiagnosticUnderlineHint { sp = snazzy.green, gui = "underline" }, -- DiagnosticUnderlineHint xxx cterm=underdouble gui=underdouble guisp=#9aedfe
 		DiagnosticUnderlineInfo { sp = snazzy.blue, gui = "underline" }, -- DiagnosticUnderlineInfo xxx cterm=underdouble gui=underdouble guisp=#57c7ff
-		DiagnosticUnderlineWarn { sp = snazzy.orange, gui = "underline" }, -- DiagnosticUnderlineWarn xxx cterm=underdouble gui=underdouble guisp=#ff9f43
+		DiagnosticUnderlineWarn { sp = snazzy.yellow, gui = "underline" }, -- DiagnosticUnderlineWarn xxx cterm=underdouble gui=underdouble guisp=#ff9f43
 		DiagnosticVirtualTextError { fg = snazzy.red }, -- DiagnosticVirtualTextError xxx guifg=#ff5c57
-		DiagnosticVirtualTextHint { fg = snazzy.cyan }, -- DiagnosticVirtualTextHint xxx guifg=#9aedfe
-		DiagnosticVirtualTextInfo { fg = snazzy.blue }, -- DiagnosticVirtualTextInfo xxx guifg=#57c7ff
-		DiagnosticVirtualTextWarn { fg = snazzy.orange }, -- DiagnosticVirtualTextWarn xxx guifg=#ff9f43
-		DiagnosticWarn { fg = snazzy.orange }, -- DiagnosticWarn xxx ctermfg=3 guifg=Orange
+		DiagnosticVirtualTextHint { fg = snazzy.green }, -- DiagnosticVirtualTextHint xxx guifg=#9aedfe
+		DiagnosticVirtualTextInfo { fg = snazzy.cyan }, -- DiagnosticVirtualTextInfo xxx guifg=#57c7ff
+		DiagnosticVirtualTextWarn { fg = snazzy.yellow }, -- DiagnosticVirtualTextWarn xxx guifg=#ff9f43
+		DiagnosticWarn { fg = snazzy.yellow }, -- DiagnosticWarn xxx ctermfg=3 guifg=Orange
 
 		NvimInternalError { bg = snazzy.red, fg = "#ff5c57" }, -- NvimInternalError xxx guifg=#ff5c57 guibg=#ff5c57
 
