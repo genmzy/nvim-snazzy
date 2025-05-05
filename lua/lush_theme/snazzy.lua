@@ -134,7 +134,7 @@ local theme = lush(function(injected_functions)
 		sym("@operator") { fg = snazzy.orange }, -- TSOperator     xxx guifg=#ff6ac1
 		sym("@property") { Identifier }, -- TSProperty     xxx links to Identifier
 		sym("@punctuation.bracket") { fg = snazzy.base6 }, -- TSPunctBracket xxx guifg=#f1f1f0
-		sym("@punctuation.delimiter") { fg = snazzy.base6 }, -- TSPunctDelimiter xxx guifg=#f1f1f0
+		sym("@punctuation.delimiter") { fg = snazzy.base7 }, -- TSPunctDelimiter xxx guifg=#f1f1f0
 		sym("@string") { fg = snazzy.green }, -- TSString       xxx guifg=#5af78e
 		sym("@string.escape") { fg = snazzy.purple }, -- TSStringEscape xxx cterm=bold gui=bold guifg=#f3f99d
 		sym("@string.regexp") { String }, -- TSStringRegex  xxx links to String
