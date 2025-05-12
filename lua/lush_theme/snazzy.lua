@@ -180,6 +180,7 @@ local theme = lush(function(injected_functions)
 		sym("@lsp.typemod.variable.macro.rust") { fg = snazzy.green },
 		sym("@lsp.typemod.variable.readonly") { Define },
 		sym("@markup.raw.block.vimdoc") { String },
+		sym("@markup.raw.markdown_inline") { gui = "underdotted" },
 
 		DiagnosticDefaultError { fg = snazzy.red }, -- DiagnosticDefaultError xxx guifg=#ff5c57
 		DiagnosticDefaultHint { fg = snazzy.green }, -- DiagnosticDefaultHint xxx guifg=#5af78e
