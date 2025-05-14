@@ -179,6 +179,7 @@ local theme = lush(function(injected_functions)
 		sym("@lsp.mod.constructorOrDestructor") { fg = snazzy.blue },
 		sym("@lsp.typemod.variable.macro.rust") { fg = snazzy.green },
 		sym("@lsp.typemod.variable.readonly") { Define },
+		sym("@lsp.typemod.function.global") { fg = snazzy.blue },
 		sym("@markup.raw.block.vimdoc") { String },
 		sym("@markup.raw.markdown_inline") { gui = "underdotted" },
 
