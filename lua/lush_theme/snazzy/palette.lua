@@ -133,9 +133,9 @@ M.dark = {
 	current_node = "#303340",
 
 	diff = {
-		delete = hsl("#3a0603"),
-		change = hsl("#434805"),
-		add = hsl("#00331a"),
+		delete = hsl("#FDA09E"),
+		change = hsl("#F9FDBF"),
+		add = hsl("#82F9A9"),
 	},
 	none = nil,
 

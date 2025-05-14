@@ -440,10 +440,10 @@ local theme = lush(function(injected_functions)
 		DevIconZshenv { fg = "#89e051" }, -- DevIconZshenv  xxx ctermfg=113 guifg=#89e051
 		DevIconZshprofile { fg = "#89e051" }, -- DevIconZshprofile xxx ctermfg=113 guifg=#89e051
 		DevIconZshrc { fg = snazzy.green }, -- DevIconZshrc   xxx guifg=#5af78e
-		DiffAdd { bg = "#00331a" }, -- DiffAdd        xxx guibg=#00331a
-		DiffChange { bg = "#434805" }, -- DiffChange     xxx guibg=#434805
-		DiffDelete { bg = snazzy.diff.delete, fg = snazzy.red }, -- DiffDelete     xxx guibg=#4d0300
-		DiffText { bg = "#434805", fg = snazzy.yellow }, -- DiffText       xxx cterm=bold gui=bold guifg=#f3f99d guibg=#434805
+		DiffAdd { fg = snazzy.diff.add },
+		DiffChange { fg = snazzy.diff.change },
+		DiffDelete { fg = snazzy.diff.delete },
+		DiffText { gui = "reverse", fg = snazzy.yellow }, -- DiffText       xxx cterm=bold gui=bold guifg=#f3f99d guibg=#434805
 		DiffviewCursorLine { CursorLine }, -- DiffviewCursorLine xxx links to CursorLine
 		DiffviewDiffAddAsDelete { bg = snazzy.diff.delete, fg = snazzy.red }, -- DiffviewDiffAddAsDelete xxx guibg=#4d0300
 		DiffviewDiffDelete { Comment }, -- DiffviewDiffDelete xxx links to Comment
