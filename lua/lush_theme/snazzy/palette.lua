@@ -79,12 +79,14 @@ M.dark = {
 	base8 = "#b1b1b1",
 	base9 = "#cbcbcb",
 
+	overlay = "#7f849c",
+
 	red = hsl("#ff5c57"),
 	orange = hsl("#FF9F43"),
 	yellow = hsl("#f3f99d"),
 	green = hsl("#5af78e"),
 	blue = hsl("#57c7ff"),
-	purple = hsl("#A39DF9"),
+	purple = hsl("#C2BEFF"),
 	magenta = hsl("#ff6ac1"),
 	cyan = hsl("#9aedfe"),
 	white = hsl("#f1f1f0"),
