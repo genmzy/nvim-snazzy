@@ -921,6 +921,7 @@ local theme = lush(function(injected_functions)
 		BlinkCmpKindTypeParameter { Typedef },
 		-- Fzf
 		FzfLuaDirPart { fg = snazzy.base6 },
+		FzfLuaBorder { fg = snazzy.cyan },
 		--
 		--   Added                                                                                                   { fg="nvimlightgreen", },
 		--   Changed                                                                                                 { fg="nvimlightcyan", },
