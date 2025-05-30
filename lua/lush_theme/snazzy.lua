@@ -29,7 +29,7 @@ local theme = lush(function(injected_functions)
 		NormalFloat { fg = "#eff0eb" },
 		Operator { fg = snazzy.magenta },
 		Pmenu { sp = snazzy.statusline.bg, fg = snazzy.base8 },
-		PmenuSbar { sp = "#848688", bg = "#848688", fg = "#f9f9f9" },
+		PmenuSbar { sp = "#686868", bg = "#686868", fg = "#f9f9f9" },
 		PmenuSel { sp = snazzy.statusline.bg, bg = "#3a3d4d" },
 		PmenuSelBold { sp = snazzy.statusline.bg, fg = snazzy.green, bg = "#3a3d4d", gui = "bold" },
 		PmenuThumb { bg = snazzy.overlay },
