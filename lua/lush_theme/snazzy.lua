@@ -571,7 +571,7 @@ local theme = lush(function(injected_functions)
 		LspSignatureActiveParameter { gui = "underline" },
 		LspVariable { fg = "#f1f1f0" },
 		MatchBackground { ColorColumn },
-		MatchParen { fg = snazzy.green },
+		MatchParen { fg = snazzy.yellow },
 		MatchParenCur { MatchParen },
 		MatchWord { MatchParen },
 		ModeMsg { sp = "#192224", fg = "#f9f9f9", bg = "#192224", gui = "bold" },
