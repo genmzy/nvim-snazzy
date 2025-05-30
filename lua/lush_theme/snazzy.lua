@@ -142,7 +142,7 @@ local theme = lush(function(injected_functions)
 		sym("@string.special.url") { gui = "underline", fg = snazzy.blue },
 		sym("@structure") { fg = snazzy.orange },
 		sym("@tag") { fg = snazzy.cyan },
-		sym("@tag.attribute") { fg = snazzy.orange },
+		sym("@tag.attribute") { fg = snazzy.yellow },
 		sym("@tag.delimiter") { fg = snazzy.magenta },
 		sym("@type") { fg = snazzy.yellow },
 		sym("@type.builtin") { fg = snazzy.yellow },
