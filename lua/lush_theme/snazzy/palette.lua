@@ -88,6 +88,7 @@ M.dark = {
 	blue = hsl("#57c7ff"),
 	purple = hsl("#C2BEFF"),
 	magenta = hsl("#ff6ac1"),
+	pink = hsl("#e7c3fb"),
 	cyan = hsl("#9aedfe"),
 	white = hsl("#f1f1f0"),
 	pure_white = hsl("#ffffff"),
