@@ -109,7 +109,7 @@ local theme = lush(function(injected_functions)
 		sym("@keyword.directive.define") { Define },
 		sym("@keyword.exception") { fg = snazzy.red },
 		sym("@keyword.function") { fg = snazzy.red },
-		sym("@keyword.import") { fg = snazzy.yellow },
+		sym("@keyword.import") { fg = snazzy.pink },
 		sym("@keyword.operator") { fg = snazzy.magenta },
 		sym("@keyword.repeat") { fg = snazzy.cyan },
 		sym("@keyword.return") { fg = snazzy.red },
@@ -149,11 +149,11 @@ local theme = lush(function(injected_functions)
 		sym("@type.definition") { Typedef },
 		sym("@type.qualifier") { Type },
 		sym("@variable") { fg = "#eff0eb" },
-		sym("@variable.builtin") { fg = snazzy.yellow },
+		sym("@variable.builtin") { fg = snazzy.pink },
 		sym("@variable.member") { fg = snazzy.cyan },
 		sym("@variable.parameter") { fg = snazzy.base9 },
 		sym("@lsp.type.string") { sym("@none") },
-		sym("@namespace.builtin") { fg = snazzy.yellow },
+		sym("@namespace.builtin") { fg = snazzy.pink },
 
 		-- LSP highlights
 		sym("@lsp.type.class") { Structure },
