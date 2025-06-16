@@ -115,7 +115,7 @@ local theme = lush(function(injected_functions)
 		sym("@keyword.return") { fg = snazzy.red },
 		sym("@keyword.storage") { fg = snazzy.magenta },
 		sym("@keyword.modifier") { fg = snazzy.red },
-		sym("@keyword.type") { fg = snazzy.cyan },
+		sym("@keyword.type") { fg = snazzy.magenta },
 		sym("@label") { fg = snazzy.pink },
 		sym("@markup.emphasis") { gui = "italic" },
 		sym("@markup.environment") { Macro },
