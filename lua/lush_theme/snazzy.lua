@@ -871,7 +871,7 @@ local theme = lush(function(injected_functions)
 		CmpItemAbbrDeprecatedDefault { fg = "#606580" },
 		CmpItemAbbrDeprecated { CmpItemAbbrDeprecatedDefault },
 		CmpItemAbbrMatchDefault { fg = "#eff0eb" },
-		CmpItemAbbrMatch { fg = snazzy.green },
+		CmpItemAbbrMatch { fg = snazzy.pink },
 		CmpItemAbbrMatchFuzzyDefault { fg = "#eff0eb" },
 		CmpItemAbbrMatchFuzzy { fg = snazzy.yellow },
 		CmpItemKindDefault { fg = snazzy.yellow },
