@@ -119,7 +119,7 @@ M.dark = {
 
 	normal_bg = normal_bg(),
 
-	cursorline = hsl("#45475a"),
+	cursorline = hsl("#3a3d4d"),
 	foldline = hsl("#3a3d4d"),
 	selection_background = hsl("#273d57"),
 	statusline = {
