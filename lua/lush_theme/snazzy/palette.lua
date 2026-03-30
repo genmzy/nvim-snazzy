@@ -93,7 +93,7 @@ M.dark = {
 	white = hsl("#f1f1f0"),
 	pure_white = hsl("#ffffff"),
 	grey = hsl("#686868"),
-	black = hsl("#282a36"),
+	black = hsl("#1e1f29"),
 	pure_black = hsl("#000000"),
 
 	search = hsl("#9aedfe"),
@@ -109,29 +109,29 @@ M.dark = {
 	ui_6 = "#5e6c70",
 	ui_7 = "#536991",
 	ui_8 = "#606580",
-	ui_9 = "#3a3d4d",
+	ui_9 = "#282a36",
 	ui_10 = "#313442",
 	ui_11 = "#282a36",
 	ui_12 = "#192224",
 
 	fg = hsl("#eff0eb"),
-	bg = hsl("#282a36"),
+	bg = hsl("#1e1f29"),
 
 	normal_bg = normal_bg(),
 
-	cursorline = hsl("#3a3d4d"),
-	foldline = hsl("#3a3d4d"),
+	cursorline = hsl("#282a36"),
+	foldline = hsl("#282a36"),
 	selection_background = hsl("#273d57"),
 	statusline = {
-		bg = hsl("#3a3d4d"),
+		bg = hsl("#282a36"),
 	},
-	-- selection_background = "#3a3d4d",
+	-- selection_background = "#282a36",
 
-	-- cursorline = "#3a3d4d",
-	-- selection_background = "#3a3d4d",
+	-- cursorline = "#282a36",
+	-- selection_background = "#282a36",
 	-- cursorline = "#313442",
 	-- usage = "#313442",
-	usage = "#3a3d4d",
+	usage = "#282a36",
 	-- cursorline = "#303340",
 	current_node = "#303340",
 
@@ -199,13 +199,13 @@ M.light = {
 	ui_6 = "#5e6c70",
 	ui_7 = "#536991",
 	ui_8 = "#606580",
-	ui_9 = "#3a3d4d",
+	ui_9 = "#282a36",
 	ui_11 = "#282a36",
 	ui_12 = "#192224",
 
 	selection_background = "#ebf5f0",
 
-	cursor = "#3a3d4d",
+	cursor = "#282a36",
 	cursorline = "#e2e4e5",
 	none = "NONE",
 }

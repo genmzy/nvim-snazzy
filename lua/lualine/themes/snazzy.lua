@@ -10,7 +10,7 @@ local colors = {
 	white = "#f1f1f0",
 	pure_white = "#ffffff",
 	grey = "#686868",
-	black = "#282a36",
+	black = "#1e1f29",
 	pure_black = "#000000",
 
 	search = "#9aedfe",
@@ -25,10 +25,10 @@ local colors = {
 	ui_5 = "#848688",
 	ui_6 = "#5e6c70",
 	ui_7 = "#536991",
-	ui_8 = "#606580",
-	ui_9 = "#3a3d4d",
+	ui_8 = "#45475a",
+	ui_9 = "#282a36",
 	ui_10 = "#313442",
-	ui_11 = "#282a36",
+	ui_11 = "#1e1f29",
 	ui_12 = "#192224",
 }
 
