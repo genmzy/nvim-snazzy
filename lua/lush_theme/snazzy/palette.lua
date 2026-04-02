@@ -82,13 +82,13 @@ M.dark = {
 	overlay = "#7f849c",
 
 	red = hsl("#ff5c57"),
-	orange = hsl("#FF9F43"),
+	pink = hsl("#ffbcc9"),
 	yellow = hsl("#f3f99d"),
 	green = hsl("#5af78e"),
 	blue = hsl("#57c7ff"),
 	purple = hsl("#C2BEFF"),
 	magenta = hsl("#ff6ac1"),
-	pink = hsl("#e7c3fb"),
+	lavender = hsl("#e7c3fb"),
 	cyan = hsl("#9aedfe"),
 	white = hsl("#f1f1f0"),
 	pure_white = hsl("#ffffff"),
@@ -116,6 +116,7 @@ M.dark = {
 
 	fg = hsl("#eff0eb"),
 	bg = hsl("#1e1f29"),
+	dark = hsl("#171821"),
 
 	normal_bg = normal_bg(),
 
@@ -123,7 +124,7 @@ M.dark = {
 	foldline = hsl("#282a36"),
 	selection_background = hsl("#273d57"),
 	statusline = {
-		bg = hsl("#282a36"),
+		bg = hsl("#171821"),
 	},
 	-- selection_background = "#282a36",
 

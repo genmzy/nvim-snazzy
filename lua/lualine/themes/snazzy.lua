@@ -12,6 +12,7 @@ local colors = {
 	grey = "#686868",
 	black = "#1e1f29",
 	pure_black = "#000000",
+	dark = "#171821",
 
 	search = "#9aedfe",
 	incsearch = "#9aedfe",
@@ -35,33 +36,33 @@ local colors = {
 local _M = {
 	normal = {
 		a = { bg = colors.cyan, fg = colors.black, gui = "bold" },
-		b = { bg = colors.ui_8, fg = colors.white },
-		c = { bg = colors.ui_9, fg = colors.white },
+		b = { bg = colors.ui_9, fg = colors.white },
+		c = { bg = colors.dark, fg = colors.white },
 	},
 	insert = {
 		a = { bg = colors.yellow, fg = colors.black, gui = "bold" },
-		b = { bg = colors.ui_8, fg = colors.white },
-		c = { bg = colors.ui_9, fg = colors.white },
+		b = { bg = colors.ui_9, fg = colors.white },
+		c = { bg = colors.dark, fg = colors.white },
 	},
 	visual = {
 		a = { bg = colors.magenta, fg = colors.black, gui = "bold" },
-		b = { bg = colors.ui_8, fg = colors.white },
-		c = { bg = colors.ui_9, fg = colors.white },
+		b = { bg = colors.ui_9, fg = colors.white },
+		c = { bg = colors.dark, fg = colors.white },
 	},
 	replace = {
 		a = { bg = colors.red, fg = colors.black, gui = "bold" },
-		b = { bg = colors.ui_8, fg = colors.white },
-		c = { bg = colors.ui_9, fg = colors.white },
+		b = { bg = colors.ui_9, fg = colors.white },
+		c = { bg = colors.dark, fg = colors.white },
 	},
 	command = {
 		a = { bg = colors.blue, fg = colors.black, gui = "bold" },
-		b = { bg = colors.ui_8, fg = colors.white },
-		c = { bg = colors.ui_9, fg = colors.white },
+		b = { bg = colors.ui_9, fg = colors.white },
+		c = { bg = colors.dark, fg = colors.white },
 	},
 	inactive = {
 		a = { bg = colors.grey, fg = colors.white, gui = "bold" },
-		b = { bg = colors.ui_8, fg = colors.white },
-		c = { bg = colors.ui_9, fg = colors.white },
+		b = { bg = colors.ui_9, fg = colors.white },
+		c = { bg = colors.dark, fg = colors.white },
 	},
 }
 return _M
