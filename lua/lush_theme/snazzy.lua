@@ -1,6 +1,19 @@
 ---@diagnostic disable: undefined-global
 --# selene: allow(undefined_variable)
 -- Run :Lushify
+
+vim.g.rainbow_delimiters = {
+	highlight = {
+		"RainbowDelimiterRed",
+		"RainbowDelimiterLavender",
+		"RainbowDelimiterYellow",
+		"RainbowDelimiterPurple",
+		"RainbowDelimiterCyan",
+		"RainbowDelimiterBlue",
+		"RainbowDelimiterViolet",
+	},
+}
+
 local lush = require("lush")
 local hsl = lush.hsl
 local hsluv = lush.hsluv
@@ -33,7 +46,7 @@ local theme = lush(function(injected_functions)
 		PmenuSel { sp = snazzy.statusline.bg, bg = "#282a36" },
 		PmenuSelBold { sp = snazzy.statusline.bg, fg = snazzy.green, bg = "#282a36", gui = "bold" },
 		PmenuThumb { bg = snazzy.overlay },
-		PreCondit { fg = snazzy.yellow },
+		PreCondit { bg = snazzy.yellow },
 		PreProc { fg = snazzy.red },
 		Search { bg = snazzy.search, fg = snazzy.bg },
 		Special { fg = snazzy.cyan },
@@ -575,7 +588,7 @@ local theme = lush(function(injected_functions)
 		LspSignatureActiveParameter { bg = "#282a36" },
 		LspVariable { fg = "#f1f1f0" },
 		MatchBackground { ColorColumn },
-		MatchParen { fg = snazzy.yellow },
+		MatchParen { bg = snazzy.base4 },
 		MatchParenCur { MatchParen },
 		MatchWord { MatchParen },
 		ModeMsg { sp = "#192224", fg = "#f9f9f9", bg = "#192224", gui = "bold" },
@@ -928,6 +941,15 @@ local theme = lush(function(injected_functions)
 		FzfLuaBorder { fg = snazzy.cyan, bg = snazzy.dark },
 		FzfLuaNormal { bg = snazzy.dark },
 		SnacksPickerborder { fg = snazzy.lavender, bg = snazzy.dark },
+
+		-- Rainbow
+		RainbowDelimiterRed { fg = snazzy.pink },
+		RainbowDelimiterLavender { fg = snazzy.lavender },
+		RainbowDelimiterYellow { fg = snazzy.yellow },
+		RainbowDelimiterPurple { fg = snazzy.purple },
+		RainbowDelimiterCyan { fg = snazzy.cyan },
+		RainbowDelimiterBlue { fg = snazzy.blue },
+		RainbowDelimiterViolet { fg = snazzy.magenta },
 
 		--
 		--   Added                                                                                                   { fg="nvimlightgreen", },
